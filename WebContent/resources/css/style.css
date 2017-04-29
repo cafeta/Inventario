@@ -3,7 +3,7 @@
 
 .ui-layout-north {
 	z-index: 20 !important;
-	overflow: visible !important ;;
+	overflow: visible !important ;
 }
 
 .ui-layout-north .ui-layout-unit-content {
@@ -11,5 +11,5 @@
 }
 
 .ui-widget, ui-widget .ui-widget {
-	font-size: 90% !important ;
+	font-size:95% !important ;
 }
