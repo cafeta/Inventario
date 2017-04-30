@@ -10,17 +10,18 @@ public class ConexaoBD {
 	private static final String URL = "jdbc:mysql://localhost:3306/sistema";
 
 	public static Connection conectar() throws SQLException {
-		Connection conexao = DriverManager.getConnection(URL, USUARIO, SENHA);
-		return conexao;
+		Connection conexaoBD = DriverManager.getConnection(URL, USUARIO, SENHA);
+		return conexaoBD;
 	}
 
 	public static void main(String[] args) {
 		try {
-			Connection conexao = ConexaoBD.conectar();
+			Connection conexaoBD = ConexaoBD.conectar();
 			System.out.println("Conexão estabelecida ");
 		} 
 		catch (SQLException ex) {
-			System.out.println("Conexão recusada/erro");
+			ex.printStackTrace();
+			System.out.println("Conexão recusada");
 		}
 
 	}
