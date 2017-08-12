@@ -24,13 +24,13 @@ public class FornecedoresDAO {
 	}
 	public static void main(String[] args) {
 		Fornecedores f1 = new Fornecedores();
-		f1.setDescricao("DESCRIÇAO1");
+		f1.setDescricao("Renan");
 		
 		Fornecedores f2 = new Fornecedores();
-		f2.setDescricao("DESCRIÇAO2");
+		f2.setDescricao("Gabiru");
 		
 		Fornecedores f3 = new Fornecedores();
-		f3.setDescricao("DESCRIÇAO2");
+		f3.setDescricao("Cafeta");
 		
 		
 		
